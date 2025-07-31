@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+body {
+        background-color: #84E1AD;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0px;
+}
+
+    @font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format('opentype'), url('fontes/idroid.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header {
+    text-align: center;
+    background-image: linear-gradient(180deg,#1abc66, #175A38);
+    background-attachment: fixed;
+    padding: 3px;
+    margin:-9px -9px 0px -9px;
+    box-shadow: 0px -1px 15px #3a3636ba;
+    
+}
+
+nav {
+    text-align: left;
+    padding: 5px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+a:hover {
+    color: black;
+}
+
+main {
+    background-color: white;
+    text-align: justify;
+    padding: 15px;
+    margin: 0px 130px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px -1px 15px #3a3636ba;
+}
+
+h1 {
+    font-family: idroid;
+    text-align: left;
+    color: #175A38;
+}
+
+h2 {
+    color: #175A38;
+    background-image: linear-gradient(85deg, #0eb00861, transparent); 
+    font-family: idroid;
+    text-align: left;
+    padding: 1px 10px;
+}
+
+p {
+    text-align: justify;
+    text-indent: 30px;
+}
+
+p > a {
+    background-image: linear-gradient(85deg, #49dc8e61, #49dc8e5a, white);
+    background-attachment: fixed;
+    text-decoration: none;
+    color: #175A38;
+    font-weight: bold;
+}
+
+p > a::after {
+    content: '🔗';
+}
+
+span {
+    color: #175A38;
+    font-weight: bolder;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+iframe {
+    max-width: 100%;
+    height: 315px auto;
+}
+
+footer {
+    background-color: #175A38;
+    margin: -1px;
+}
+
+footer > p {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin: 30px 0px 0px 0px;
+}
+
+#h1principal {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.frasedestaque {
+    color: white;
+    text-align: center;
+}
+
+.destaque {
+    background-color: #2B9D60;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    margin: 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.extra {
+    background-color: #84E1AD;
+    padding: 0px 10px 10px 10px;
+    border-radius: 10px 10px;
+}
+
+li > a {
+    color: black;
+}
+
+li::before {
+    content: '✔ ';
+}
+            
+
+            

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+
+   <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+        
+            /*
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+
+            Tamanho normal da fonte = 16px
+            16px geralmente = 1em
+            ----> RECOMENDADOS: px OU EM
+            */ 
+           
+            font-size: 1em;
+            /* lighter, normal, bold, bolder */
+        }
+        
+        h1 { 
+            /* shorthand font (uma tag abreviada, porém tem que seguir a ordem para dar certo)
+            - font-style -> font-weight -> font size -> font-family
+
+            font-family: 'work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            font: italic bolder 3em 'work Sans', sans-serif;
+        } 
+
+        h2 {
+            font: bold;
+        }
+   </style>
+
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias officiis accusantium vero. Iusto minus eaque possimus veritatis, repellat placeat reprehenderit rerum delectus nesciunt saepe labore rem, nemo aspernatur perspiciatis hic? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad dolorum harum, vero minima magni reiciendis ipsa aspernatur officia non quas quibusdam quae nulla esse corporis nisi nemo praesentium quis velit.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, aut, quasi dolorem vero rerum voluptatum alias dolor necessitatibus distinctio, nam aliquam deserunt a! Sapiente, necessitatibus minus? Provident cum eos eum.</p>
+
+    <h2>Subtítulo do exercício</h2>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit voluptatem, atque error vero eligendi veritatis necessitatibus cumque iste, doloremque tempore, aperiam facilis natus officiis perspiciatis blanditiis. Pariatur facilis nesciunt amet.</p>
+
+</body>
+</html>
